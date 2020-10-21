@@ -1,0 +1,17 @@
+{
+  "name": "microappinfo",
+  "version": "1.0.0",
+  "description": "A microservice that provides Steam app info from PICS over HTTP. Yes, that's all it does.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandra Frock <developers@cutie.cafe>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "steam-user": "^4.18.0"
+  }
+}
